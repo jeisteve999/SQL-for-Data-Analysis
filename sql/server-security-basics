@@ -1,19 +1,1 @@
-# SQL Server Security Basics
-
-This script provides a set of useful commands related to SQL Server security it was for my learning process:
-
-## Sections
-
-1. **Database Role Membership**
-   - Shows the roles assigned to the current database user.
-2. **Server Role Membership**
-   - Displays server-level roles for the connected login.
-3. **Asymmetric Keys**
-   - Lists all asymmetric keys in the database.
-4. **Encryption Setup**
-   - Creates a master key and certificate (used for backup encryption or secure features).
-5. **Connection Encryption Check**
-   - Checks if the current session is encrypted.
-6. **Connection String Sample**
-   - Example of a secure connection string using encryption.
 
