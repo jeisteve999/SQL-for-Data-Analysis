@@ -245,3 +245,85 @@ This is an educational practice project. No real data is used, and user credenti
 ---
 
 Feel free to fork, adapt, and extend this script to test your SQL logic and procedural thinking.
+
+
+# SQL Server Practice: Restaurant & HR Database Scripts
+
+https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/restaurant_lab_practice2.sql
+
+## 📌 Overview
+
+This project contains a rich SQL Server practice script simulating operations in a **restaurant and HR context**. It covers key topics such as:
+
+- Table creation with keys and relationships
+- Views and data filtering
+- Stored procedures (insert, update, delete)
+- XML data types and `ALTER TABLE`
+- `CASE` expressions for business logic
+- Basic normalization principles
+
+Designed for educational purposes, this script helps reinforce essential skills in T-SQL and database modeling.
+
+---
+
+## 🧱 Structure
+
+The SQL script is divided into **8 main sections**:
+
+### 1. Person and Instructor Relationship
+- `Person` table for staff and students
+- `CourseInstructor` table with foreign key relation
+- Demonstrates JOIN between entities
+
+### 2. Department Table (HR Schema)
+- Creation of `HumanResources.Department` table
+- Includes clustered primary key and column structure for HR grouping
+
+### 3. Employee Table (Sample Database)
+- Simple employee table design with department column
+
+### 4. Person and EmployeeDetails in `Lab_skillsoft`
+- Improved `Person` table
+- `EmployeeDetails` table using `XML` for resumes
+- Demonstrates `ALTER TABLE` for datatype correction
+
+### 5. Views
+- `PersonView` shows use of `CREATE VIEW` for filtered data
+
+### 6. Employee2 Table and Stored Procedures
+- Create and insert records using `sp_insertemployee`
+- Update records via `sp_updateemployee`
+- Delete records by department using `sp_deleteemployee`
+
+### 7. Advanced Queries with CASE
+- Conditional logic applied using `CASE`
+- Adjusts `SafetyStockLevel` based on `Color` in `DimProduct`
+
+---
+
+## 🛠️ Technologies Used
+
+- **SQL Server Management Studio (SSMS)**
+- **T-SQL**
+- **Stored Procedures and Views**
+- **XML Fields**
+- **CASE Logic**
+
+---
+
+## ✅ How to Use
+
+1. Open SQL Server Management Studio.
+2. Execute the script section by section.
+3. Confirm database names exist or create them beforehand (`RESTAURANTE`, `Lab_skillsoft`, `Sample`).
+4. Adapt XML and product data queries if needed.
+5. Use `EXEC` commands to test procedures.
+
+---
+
+## 📂 File List
+
+- `restaurant_lab_practice.sql`: Full practice script with comments
+- `README.md`: This file
+
+---
