@@ -1,38 +1,52 @@
-# SQL-for-Data-Analysis
-This repository contains SQL scripts and queries developed during my data analytics training. The exercises and mini-projects focus on real-world tasks like data cleaning, transformation, joins, and business insights generation.
 # SQL for Data Analysis
 
-This repository contains SQL scripts focused on security checks and encryption setup in Microsoft SQL Server. These utilities can be useful for auditing user roles, verifying encryption, and creating secure environments for backups.
+This repository contains SQL scripts and queries developed during my data analytics training. The exercises and mini-projects simulate real-world tasks such as data cleaning, transformation, joins, and business insight generation.
 
-## 📁 Folder: [#SQL for Data Analysis](https://github.com/jeisteve999/SQL-for-Data-Analysis/tree/main/sql)
+## 🔐 Security and Encryption Utilities
 
-### 🔐 File: https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/SQLQuery14sql.sql
+Inside the `sql` folder, you'll find scripts focused on basic SQL Server security and encryption setup. These are useful for:
 
-This script includes:
+- Auditing user roles at both the database and server level
+- Viewing asymmetric keys
+- Creating a master key and certificate for secure environments
+- Verifying connection encryption status
+- Referencing an encrypted SQL Server connection string
 
-1. **Database Role Audit**
-   - Lists roles assigned to the current database user.
-2. **Server Role Audit**
-   - Displays server-level roles for the connected login.
-3. **Asymmetric Key Overview**
-   - Shows all asymmetric keys in the system.
-4. **Master Key and Certificate Creation**
-   - Creates a master key and a test certificate (⚠️ change password before using in production).
-5. **Connection Encryption Check**
-   - Verifies if the current session is encrypted.
-6. **Encrypted Connection String Example**
-   - Template for securely connecting to SQL Server.
+📄 **Script:** [`SQLQuery14sql.sql`](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/SQLQuery14sql.sql)
 
-## 🚧 Notes
+### 🧩 Script Contents
 
-- Make sure to **replace default passwords** and avoid committing credentials.
-- Run scripts in a **secure and authorized SQL Server environment** only.
+1. **Database Role Audit**  
+   Lists roles assigned to the current database user.
 
-## ✅ Requirements
+2. **Server Role Audit**  
+   Displays server-level roles for the connected login.
 
-- Microsoft SQL Server (2016+ recommended)
-- SQL Server Management Studio or compatible SQL client
+3. **Asymmetric Key Overview**  
+   Shows all asymmetric keys in the system.
+
+4. **Master Key and Certificate Creation**  
+   Creates a master key and a test certificate.  
+   ⚠️ *Make sure to replace the default password.*
+
+5. **Connection Encryption Check**  
+   Verifies whether the current session is encrypted.
+
+6. **Encrypted Connection String Template**  
+   Provides a basic example of a secure connection string.
 
 ---
 
-Feel free to fork or suggest improvements.
+### ⚠️ Notes
+
+- Never commit real credentials or sensitive data.
+- Run these scripts only in authorized and secure SQL Server environments.
+
+### ✅ Requirements
+
+- Microsoft SQL Server (2016 or later recommended)  
+- SQL Server Management Studio (SSMS) or a compatible SQL client
+
+---
+
+Feel free to fork, use, or suggest improvements!
