@@ -86,3 +86,57 @@ This script (https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/
 ---
 
 Feel free to use, modify, or expand this script for educational and training purposes.
+
+
+# Basic SQL Practice
+
+https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/basic_sql_practice.sql
+
+This script contains a variety of SQL operations designed to help beginners and intermediate users practice essential skills in Microsoft SQL Server. It includes real-life use cases and examples using variables, conditions, aggregation, control flow, and temporary tables.
+
+## 📘 Contents
+
+### 1. Data Insertion
+- Insert rows into tables with different value types (dates, nulls, text)
+
+### 2. Basic Queries and Filters
+- `SELECT` with `WHERE`, `IN`, `BETWEEN`, `LIKE`, `NOT`, `<>`, etc.
+
+### 3. Conditional Logic
+- `CASE` expressions to classify stock levels and section behavior
+
+### 4. Sorting and Grouping
+- `ORDER BY` with multiple columns  
+- `GROUP BY` with aggregate functions like `SUM`
+
+### 5. Variables and Control Flow
+- Use of `DECLARE`, `SET`, `IF/ELSE`, `WHILE`, and `GOTO`
+
+### 6. Joins and Subqueries
+- Inner and left joins  
+- Subqueries with `IN` for filtered selection
+
+### 7. Temporary Tables
+- Creating and using temporary tables with `#` prefix
+
+### 8. String Functions
+- Use of `LEN`, `ASCII`, and `NCHAR` for text manipulation
+
+---
+
+## ✅ Requirements
+
+- Microsoft SQL Server (2016+ recommended)
+- SQL Server Management Studio (SSMS) or any T-SQL compatible client
+
+---
+
+## 🚧 Notes
+
+- Table and column names are illustrative. You may need to adapt them to match your own database schema.
+- The script uses English as the standard language for code and comments.
+- Safe for educational and training use. No sensitive data included.
+
+---
+
+Feel free to fork, practice, and improve upon this script!
