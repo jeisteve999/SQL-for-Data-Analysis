@@ -4,9 +4,9 @@ This repository contains SQL scripts and queries developed during my data analyt
 
 This repository contains SQL scripts focused on security checks and encryption setup in Microsoft SQL Server. These utilities can be useful for auditing user roles, verifying encryption, and creating secure environments for backups.
 
-## 📁 Folder: #SQL for Data Analysis
+## 📁 Folder: [#SQL for Data Analysis](https://github.com/jeisteve999/SQL-for-Data-Analysis/tree/main/sql)
 
-### 🔐 File: `SQLQuery14sql.sql`
+### 🔐 File: https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/SQLQuery14sql.sql
 
 This script includes:
 
