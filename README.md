@@ -106,3 +106,52 @@ This script includes fundamental operations in Microsoft SQL Server, combining s
 ---
 
 Feel free to fork, learn, and adapt this script for educational purposes.
+
+
+# SQL Server Flow Control and UNION Practice
+
+This script demonstrates intermediate SQL Server features including control flow using labels and `GOTO`, conditional updates, use of the `RAND()` function, and combining result sets using `UNION`. It is designed for learners exploring logic and procedural behavior in T-SQL.
+
+---  https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/sql_flow_and_union_practice.sql
+
+## 📘 Contents
+
+### 1. Insert Example (System Database)
+- Demonstrates a template-style `INSERT INTO` on a system table (`msdb`)  
+- ⚠️ For educational purposes only – avoid modifying system databases in production
+
+### 2. Update Operations
+- Updates `empleados` table with:
+  - Automatic `fecha_baja` set to current date
+  - Simultaneous update of multiple fields
+
+### 3. UNION Query
+- Combines results from three different tables (`bebidas`, `platos`, `camareros`)
+- Uses `UNION` and `ORDER BY` to sort merged data
+
+### 4. Random Loop with GOTO
+- Simulates a loop using:
+  - `DECLARE` and `SET` for variables
+  - `RAND()` to generate random numbers
+  - `GOTO` control flow to simulate iteration
+  - Stops after 5 loops with final message
+
+---
+
+## ✅ Requirements
+
+- Microsoft SQL Server 2016 or later
+- Any T-SQL-compatible client (e.g., SSMS)
+- Optional: Custom schema containing `empleados`, `bebidas`, `platos`, and `camareros`
+
+---
+
+## 🚧 Notes
+
+- Some system tables used (`msdb`, `autoadmin_task_agents`) are reserved for SQL Server internal use.
+- Always validate and test code in a development environment before using in production.
+- Ensure tables like `empleados` and `camareros` exist in your database.
+
+---
+
+Feel free to fork, adapt, and extend this script to test your SQL logic and procedural thinking.
