@@ -50,3 +50,39 @@ Inside the `sql` folder, you'll find scripts focused on basic SQL Server securit
 ---
 
 Feel free to fork, use, or suggest improvements!
+
+# Security and User Management in SQL Server
+
+This script (https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/security_and_users.sql) contains advanced SQL Server operations focused on encryption, login/user creation, and permission management.
+
+## 🔐 Script Features
+
+1. **Transparent Data Encryption (TDE) Setup**
+   - Creates a database encryption key using AES_256.
+   - Enables encryption on the target database.
+   - Performs a secure database backup using a server certificate.
+
+2. **Data Encryption with Passphrase**
+   - Encrypts a string using `EncryptByPassPhrase`.
+   - Decrypts it using `DecryptByPassPhrase`.
+
+3. **User and Login Management**
+   - Creates SQL logins and users.
+   - Adds Windows-authenticated users.
+   - Grants and revokes permissions.
+   - Assigns roles at both database and server level.
+
+## 🚧 Notes
+
+- Replace passwords like `'Steve1023'` with secure, production-ready ones before use.
+- Make sure that users and roles exist before running `GRANT`, `REVOKE`, or `EXEC sp_addrolemember`.
+- Some sections (e.g., `REVOKE` or `ALTER AUTHORIZATION`) may require elevated privileges.
+
+## ✅ Requirements
+
+- SQL Server 2016 or later
+- Administrative privileges for login/user creation and encryption setup
+
+---
+
+Feel free to use, modify, or expand this script for educational and training purposes.
