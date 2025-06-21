@@ -1,36 +1,52 @@
-🧠 SQL for Data Analysis
-This repository contains SQL scripts and projects created during my data analytics training. It includes hands-on exercises covering data cleaning, transformation, database design, security, stored procedures, triggers, and business analysis using SQL Server.
+# 🧠 SQL for Data Analysis
 
-📁 Project Structure
-🔍 1. SQL Analysis Practice (Foundational to Intermediate)
-These scripts cover basic queries, control flow, normalization, and logic development for SQL Server learners.
+Welcome to my **SQL for Data Analysis** repository!  
+This repo contains a curated collection of **SQL Server scripts** developed during my journey through data analytics training.
 
-File	Description
-[basic_sql_practice.sql](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/basic_sql_practice.sql)	  Basic practice: INSERT, CASE, JOINS, IF/ELSE, WHILE, LEN, etc.
-[sql_system_and_insert_practice.sql](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/sql_system_and_insert_practice.sql) 	System views, table creation, multi-row insert, Spanish date config
-[sql_flow_and_union_practice.sql](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/sql_flow_and_union_practice.sql) 	GOTO, loops, conditional updates, UNION, RAND()
-[restaurant_lab_practice2.sql	](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/restaurant_lab_practice2.sql)  Simulated HR + Restaurant lab: keys, views, XML, stored procs
-[sql_lab_practice.sql	](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/sql_lab_practice.sql) Database design, 1NF/2NF, constraints, indexes, users, backups
+🛠️ It includes hands-on exercises and mini-projects that simulate real-world data tasks such as:
 
-🔐 2. SQL Server Security Scripts
-These scripts demonstrate real-world database security practices.
+- ✅ Data cleaning & transformation  
+- 🧩 Joins & subqueries  
+- 📊 Business analysis  
+- 🔁 Control flow & procedures  
+- 🔐 Security configurations  
+- 🧱 Normalization & relational design  
 
-File	Description
-[security_audit.sql](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/security_audit.sql) 	Audits, encryption (certificates/keys), secure connections
-[security_and_users.sql	](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/security_and_users.sql) TDE, passphrase encryption, user creation, roles/permissions
+All scripts are written in **T-SQL** and tested in **SQL Server Management Studio (SSMS)**.
 
-🛠️ Requirements
-Microsoft SQL Server 2016 or later
+---
 
-SQL Server Management Studio (SSMS) or compatible T-SQL environment
+## 📁 Project Structure
 
-(Optional) Sample DB: AdventureWorks or personal datasets
+### 🔍 1. SQL Analysis Practice (Foundational to Intermediate)
 
-📌 Notes
-Scripts use English for consistency and global usage.
+> These scripts cover basic queries, control flow, normalization, and logic development for SQL Server learners.
 
-Replace placeholder passwords before use.
+| File | Description |
+|------|-------------|
+| [`basic_sql_practice.sql`](./basic_practice/basic_sql_practice.sql) | Basic syntax: `INSERT`, `CASE`, `JOINS`, `IF/ELSE`, `WHILE`, `LEN` |
+| [`sql_system_and_insert_practice.sql`](./basic_practice/sql_system_and_insert_practice.sql) | System views, table creation, multi-row inserts, language settings |
+| [`sql_flow_and_union_practice.sql`](./basic_practice/sql_flow_and_union_practice.sql) | Loops with `GOTO`, conditional updates, `RAND()`, and `UNION` |
+| [`restaurant_lab_practice2.sql`](./basic_practice/restaurant_lab_practice2.sql) | Restaurant + HR schema: keys, views, `XML`, stored procs |
+| [`sql_lab_practice.sql`](./basic_practice/sql_lab_practice.sql) | Normalization (1NF/2NF), constraints, indexing, user roles |
 
-Never run system-modifying queries in production without proper review.
+---
 
-Designed for educational purposes – no real personal or company data included.
+### 🔐 2. SQL Server Security Scripts
+
+> Real-world practices in database encryption, auditing, and user management.
+
+| File | Description |
+|------|-------------|
+| [`security_audit.sql`](./sql/security_audit.sql) | Auditing roles, encryption keys, secure connection verification |
+| [`security_and_users.sql`](./sql/security_and_users.sql) | TDE, value encryption, role management, user creation |
+
+---
+
+## ✅ Requirements
+
+- Microsoft SQL Server 2016 or later  
+- SQL Server Management Studio (SSMS)  
+- Optional: AdventureWorks or personal dataset
+
+---Feel free to **fork, adapt, and learn** from these scripts. Contributions and feedback are always welcome!
