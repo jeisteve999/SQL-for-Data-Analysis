@@ -151,6 +151,96 @@ This script demonstrates intermediate SQL Server features including control flow
 - Some system tables used (`msdb`, `autoadmin_task_agents`) are reserved for SQL Server internal use.
 - Always validate and test code in a development environment before using in production.
 - Ensure tables like `empleados` and `camareros` exist in your database.
+- 
+
+
+# SQL Server Practice Lab: Database Design, Normalization & Security
+
+## 📌 Overview
+
+This project is a comprehensive SQL Server practice script designed to demonstrate essential skills in:
+
+- **Database creation**
+- **Table design and normalization (1NF, 2NF)**
+- **Data manipulation (INSERT, SELECT, UPDATE, DELETE)**
+- **Primary and foreign key constraints**
+- **Composite keys and indexing**
+- **User roles and permissions**
+- **Database backups**
+
+All scripts are written for learning purposes using a fictional dataset related to employees, faculty, courses, clients, and orders.
+
+---
+
+## 🧱 Structure
+
+The script is divided into **8 key sections**:
+
+### 1. Employee Table and Operations
+- Create a basic employee table
+- Insert single and multiple rows
+- Update and delete data
+- Query data by ID
+
+### 2. Faculty and Course Relationship
+- Create a non-normalized faculty table with course info
+- Perform data cleanup
+- Normalize course information into a separate table
+
+### 3. Clients and Address Normalization
+- Transition from a flat table to a 1-to-many relationship
+- Use foreign key constraints to enforce integrity
+
+### 4. 2NF Orders Example
+- Refactor a table with partial dependencies
+- Separate clients into a dedicated table and apply normalization rules
+
+### 5. Referential Integrity with PK and FK
+- Create `Faculty1` and `Courses1` with `IDENTITY` and proper foreign keys
+- Perform INNER JOIN queries
+
+### 6. Composite Primary Keys
+- Demonstrate multi-column primary key with `SSN` and `EId`
+
+### 7. Indexes and User Roles
+- Add a unique non-clustered index
+- Create SQL Server login and assign user roles
+- Grant database-level access
+
+### 8. Backup Instructions
+- Backup database to local path
+- Use INIT and STATS for clean backup
+
+---
+
+## 🛠️ Technologies Used
+
+- **SQL Server Management Studio (SSMS)**
+- **T-SQL**
+- **SQL Server Authentication and Permissions**
+- **Backup/Restore Functionality**
+
+---
+
+## ✅ How to Use
+
+1. Open SQL Server Management Studio.
+2. Run each section of the script step by step.
+3. Make sure paths for backup (`C:\...`) exist on your machine or modify accordingly.
+4. Observe normalization concepts and test queries using `SELECT`, `JOIN`, etc.
+
+---
+
+## 📂 File List
+
+- https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/basic_practice/sql_lab_practice.sql
+
+
+---
+
+## 🔐 Disclaimer
+
+This is an educational practice project. No real data is used, and user credentials (e.g., passwords) are fictional. Please avoid using real credentials in public repositories.
 
 ---
 
