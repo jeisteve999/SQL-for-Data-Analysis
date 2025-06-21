@@ -12,7 +12,7 @@ Inside the `sql` folder, you'll find scripts focused on basic SQL Server securit
 - Verifying connection encryption status
 - Referencing an encrypted SQL Server connection string
 
-📄 **Script:** [`SQLQuery14sql.sql`](https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/SQLQuery14sql.sql)
+📄 **Script:** [https://github.com/jeisteve999/SQL-for-Data-Analysis/blob/main/sql/security_audit.sql)
 
 ### 🧩 Script Contents
 
